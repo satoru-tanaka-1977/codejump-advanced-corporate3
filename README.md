@@ -29,7 +29,7 @@ CODEJUMPの課題を通して、固定サイドメニューのレイアウト設
 
 ## Demo
 
-https://satoru-tanaka-1977.github.io/advanced-corporate3/
+https://satoru-tanaka-1977.github.io/codejump-advanced-corporate3/
 
 ## 制作状況
 
