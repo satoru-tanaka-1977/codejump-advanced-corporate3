@@ -174,3 +174,80 @@ li {
   font-weight: bold;
   margin-bottom: 5px;
 }
+
+/* flow */
+
+#flow {
+  background-color: #fff;
+  padding-top: 40px;
+}
+#flow .step {
+  display: flex;
+  margin-top: 60px;
+}
+#flow .figure {
+  position: relative;
+}
+#flow .figure::before {
+  content: "";
+  width: 50px;
+  height: 600px;
+  background-color: #ffdd00;
+  position: absolute;
+  top: 0;
+  left: 75px;
+}
+#flow .figure li {
+  width: 200px;
+  height: 80px;
+  line-height: 80px;
+  background-color: #414141;
+  color: #fff;
+  font-size: 0.875rem;
+  margin-bottom: 60px;
+  position: relative;
+  text-align: center;
+}
+#flow .figure li:last-child {
+  margin-bottom: 0;
+}
+#flow .figure li::before {
+  content: "";
+  border-top: 30px solid #414141;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+#flow .description {
+  margin-left: 10%;
+}
+#flow .description dt {
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: solid 1px #414141;
+  font-size: 1.3rem;
+  position: relative;
+}
+#flow .description dd {
+  margin-bottom: 43px;
+}
+#flow .description dd:last-child {
+  margin-bottom: 0;
+}
+#flow .description span {
+  background-color: #414141;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: -45px;
+  text-align: center;
+}
