@@ -33,4 +33,4 @@ https://satoru-tanaka-1977.github.io/codejump-advanced-corporate3/
 
 ## 制作状況
 
-制作中
+完成（2026/09/17）
