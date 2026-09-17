@@ -26,7 +26,7 @@ $(function () {
   let pagetop = $(`#to-top`);
 
   // 最初に画面が表示された時は、トップに戻るボタンを非表示に設定
-  pegetop.hide();
+  pagetop.hide();
 
   // スクロールイベント（スクロールされた際に実行）
   $(window).scroll(function () {
